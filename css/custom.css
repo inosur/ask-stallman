@@ -1,0 +1,381 @@
+/****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+body {
+    background-color: #f1f1f1;
+    zoom: 100%!important;
+}
+
+nav.fixed.scrolled .nav-bar {
+    opacity: .7;
+}/* floating white global nav */
+
+
+.font-24 {
+  font-size: 24px;
+  line-height: 150%;
+}
+.font-35 {
+  font-size: 35px;
+  line-height: 120%;
+}
+
+.social-list {
+  margin-bottom: 40px;
+  text-align: left;
+  padding-left: 100px;
+}
+footer .social-list {
+  padding-left: 0;
+  text-align: right;
+}
+.social-list li {
+  padding:0;
+  margin-right: 20px;
+  font-size: 20px;
+}
+.social-list li a {
+  opacity:1;
+  text-align: center;
+  display: block;
+  border-radius: 100%;
+  color:#071e26!important;
+  width:34px;
+  height: 34px;
+  padding-top: 3px;
+  background: #677274;
+}
+.social-list li a:hover {background: #04ad68;}
+footer .social-list li a {padding-top: 1px;}
+
+/* GOTOP Arrow styles*/
+#gotop {
+  position: fixed;
+  z-index: 9999;
+  bottom:15px;
+  right:15px;
+  width: 60px;
+  height: 60px;
+  background: rgba(0,0,0,0.9);
+  opacity:0.7;
+  text-align: center;
+  color:#FFF;
+  padding-top: 15px;
+  display: none;
+  font-size: 28px;
+}
+#gotop:hover {opacity: 1;}
+.maxheight {max-height: 480px;}
+.section_head .v-align-transform {top:35%;}
+/* FOOTER Styles */
+footer {
+  background: #373737;
+  color:#fff;
+  padding:80px 15px;
+  line-height: 170%;
+  font-size: 18px;
+  font-weight: 100;
+}
+footer a, footer a:focus {
+  color:#FFF;
+}
+footer .col-md-3 {
+  margin-bottom: 40px;
+}
+footer .col-sm-3 strong, footer .col-sm-3 span {
+  display: block;
+}
+footer .col-sm-3 span {font-weight: 100;}
+footer a {
+  font-weight: 100;
+  color:#FFF!important;
+}
+.footerlogo {margin-bottom: 40px;}
+.footer-gradient {
+  height:16px;
+  width:100%;
+  clear: both;
+  float: left;
+  background: #4d90c1;
+  background: -moz-linear-gradient(left, #4d90c1 0%, #604a91 100%); 
+  background: -webkit-linear-gradient(left, #4d90c1 0%,#604a91 100%);
+  background: linear-gradient(to right, #4d90c1 0%,#604a91 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d90c1', endColorstr='#604a91',GradientType=1 );
+}
+
+.bg-title {
+  text-transform: uppercase;
+  font-size: 35px;
+  display: inline-block;
+  background: rgba(0,132,162,0.5);
+  padding: 10px 50px;
+}
+
+.main-title {
+  color:#4d90c2;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+/* over ride theme.css classes for mobile type sizes */
+p.lead {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.sub {
+  font-size: 13px;
+}
+.nav-bar {border-bottom: 0!important;}
+.nav-bar .module, .nav-bar .module-group {padding:0;}
+nav.transparent .module.widget-handle {
+  border-left: 0!important;
+  border-top: 0!important;
+}
+
+/* WEBINAR Custom styles */
+.bg-white {background: #FFF;}
+.section-webinar {
+  background: #fff;
+}
+.left-col {
+  padding:80px 8.33333333% 50px 8.33333333%;
+  background: #FFF;
+  text-align: center;
+}
+.left-col.text-center {text-align: center;}
+
+.contact-title {
+    color: #4d90c2;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.section-webinar h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+    line-height: 120%;
+}
+
+.section-webinar .btn-primary {
+  margin:0 auto;
+  border:1px solid #28ca8b;
+  background: #28ca8b;
+  outline:none;
+  color:#FFF;
+  font-size: 16px;
+  font-family: 'Lato';
+  text-align: center;
+  text-transform: none;
+  font-weight: normal;
+  letter-spacing: 0;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.section-webinar .btn-primary:hover, .section-webinar .btn-primary:focus {
+  background: #FFF;
+  color:#222;
+  box-shadow:none;
+  border:1px solid #28ca8b;
+}
+
+.section-webinar .form-control {
+    border: 1px solid #c8c8c8;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #28ca8b;
+    background: #FFF;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+    padding: 0 25px;
+    margin-bottom: 20px;
+    font-family: 'Lato';
+    box-shadow: none;
+}
+textarea.form-control {height:auto!important; padding:15px 25px!important;}
+.section-webinar .form-control:focus {
+  border: 1px solid #28ca8b!important;
+  box-shadow: none;
+  outline:none;
+}
+.section-webinar ::-webkit-input-placeholder {
+  text-transform: none;
+  font-weight: normal;
+  color: #c8c8c8;
+}
+.section-webinar:-moz-placeholder {
+  text-transform: none;
+  font-weight: normal;
+  color: #c8c8c8;
+}
+.section-webinar ::-moz-placeholder {
+  text-transform: none;
+  font-weight: normal;
+  color: #c8c8c8;
+}
+.section-webinar:-ms-input-placeholder {
+  text-transform: none;
+  font-weight: normal;
+  color: #c8c8c8;
+}
+.square-link {
+  text-transform: uppercase;
+  color:#FFF;
+  text-decoration: none;
+  border:1px solid #FFF;
+  padding:10px 20px;
+  font-size:16px;
+}
+.square-link:hover {background:rgba(255,255,255,0.3);}
+.image-header {
+	padding:0;
+}
+
+.pre-footer {
+	padding-top: 40px;
+	padding-bottom: 80px;
+}
+.pre-footer a {
+	font-weight: 100;
+	color: #5e99c6;
+}
+.pre-footer h3 {
+	font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+	margin-bottom: 10px;
+}
+.pre-footer .sub-title {
+	font-size: 24px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+.left-col p a {color:#060110;}
+.section-webinar .right-col .btn-primary {max-width: 300px;}
+
+
+
+@media all and (max-width: 991px) {
+  .main-container {
+    width: 100%;
+    padding: 0;
+  }
+  .left-col {padding:50px 30px 50px 8.33333333%;}
+  .social-list li {margin-right: 8px;}
+  .contact-title {font-size:26px; margin-bottom: 15px;}
+}
+.mb-0 {
+	margin:0!important;
+}
+.social-links {
+  padding-top: 20px;
+  margin:0 0 30px 0;
+}
+.social-links li {
+  float: left;
+  margin-right: 10px;
+}
+ul.social-links li .fa-stack-2x {
+  background: #0093c5;
+  border-radius: 100%;
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+}
+ul.social-links li a {color: #0093c5;}
+.social-links li .fa-lg {
+    font-size: 20px!important;
+    width: 35px;
+    height: 35px;
+    line-height: 41px;
+    position: relative;
+    top: -5px;
+}
+.social-links li .fa-stack-1x {
+  font-size: 0.9em;
+  position: relative;
+  top: -3px;
+}
+
+@media all and (max-width: 767px) {
+  .font-35 {font-size:16px;}
+  .bg-title {font-size:16px; line-height: 100%;}
+  .matr-logo img {max-width: 200px;}
+  p.lead {
+    font-size: 15px;
+    line-height: 24px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .social-list {padding-left: 15px; margin-bottom: 20px;}
+  footer .social-list {text-align: center; margin-top: 30px;}
+  .social-list li {margin-right: 5px;}
+  .nav-container p {margin-left: 15px; font-size:12px; line-height: 150%;}
+  
+ p.nero {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  .mb0blu {
+    margin-bottom: 0 !important;
+    font-style: italic;  
+    color: #0098df;
+  } 
+     
+      
+   .background-image-holder img {
+    display: none;
+  }
+  .background-multiply .background-image-holder {
+    background-color: #28ca8b !important;
+    background-blend-mode: normal;
+  }
+  .background-image-holder.fadeIn {
+    opacity: 1;  
+  }
+
+  .mb0 {
+    margin-bottom: 10px !important;
+  }
+  header h1, #contact_header h1 {font-size:30px;}
+} 
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #modal-code > div > div > div > div > div > pre {
+    zoom: 60%;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  #modal-code > div > div > div > div > div > pre {
+    zoom: 75%;
+  }
+  
+}
